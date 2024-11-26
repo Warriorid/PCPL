@@ -20,4 +20,4 @@ def field(items, *args):
 
 
 print(list(field(goods, 'title')))
-print(list(field(goods, 'title', 'price')))``
+print(list(field(goods, 'title', 'price')))
