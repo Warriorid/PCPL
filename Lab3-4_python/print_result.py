@@ -1,7 +1,3 @@
-
-
-
-
 def print_result(func):
     def wrapper(*args, **kwargs):
         result = func(*args, **kwargs)

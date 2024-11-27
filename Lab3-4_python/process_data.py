@@ -30,7 +30,7 @@ class cm_timer_1:
         print(f"time: {end_time - self.start_time:.2f} seconds")
 
 
-path = sys.argv[1] if len(sys.argv) > 1 else "data_light.json"
+path = sys.argv[1] if len(sys.argv) > 1 else "Lab3-4_python/data_light.json"
 with open(path, encoding="utf-8") as f:
     data = json.load(f)
 
