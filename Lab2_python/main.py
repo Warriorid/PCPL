@@ -4,9 +4,9 @@
 
 import sys
 sys.path.append('Lab2_python/lab_python_oop') 
-from square import Square
-from rectangle import Rect
-from circle import Circle
+from lab_python_oop.square import Square
+from lab_python_oop.rectangle import Rect
+from lab_python_oop.circle import Circle
 
 square = Square(7, "red")
 circle = Circle(7, "blue")
